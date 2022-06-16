@@ -6,14 +6,24 @@ function ShowCreateTicket() {
     return;
   }
 
+  //No need for html, the following is appended to the body of the ui
+
   _CreateTicketPopup = $('<div>').appendTo('body')
+  
     .dxPopup({
       title: 'Create Ticket',
       visible: true,
       contentTemplate: (container) => {
+        
+    
         _CreateTicketForm = $('<div>').appendTo(container)
-          .dxForm({
+   
+
+  
+          .dxForm({ 
+           
             formData: {},
+          
             items: [
               {
                 "dataField": "ADDITIONALMEMBERS"
@@ -162,15 +172,16 @@ function ShowCreateTicket() {
 
                 ]
               }
+              
           )
           
           .dxForm('instance')
-      }});
-
-
-    toolbarItems: [ {
+         }})
+     
+      toolbarItems: [ {
       widget: "dxButton",
       toolbar:'bottom',
+      
       location: "after",
       options: { 
           text: "Submit", 
@@ -188,7 +199,9 @@ function ShowCreateTicket() {
 
 
            }
-      }
+          
+      },
+     
   }]
     .dxPopup('instance')
 }
@@ -197,4 +210,4 @@ function ShowCreateTicket() {
 $(() => {
 ShowCreateTicket();
 })
-//now make your method and event properties within your namespace
+
