@@ -204,4 +204,3 @@ function ShowCreateTicket() {
 $(() => {
 ShowCreateTicket();
 })
-//now make your method and event properties within your namespace
