@@ -1,30 +1,30 @@
-
-
 function ShowCreateTicket() {
   if (typeof (_CreateTicketPopup) !== "undefined") {
     _CreateTicketPopup.show();
     return;
   }
 
-  //No need for html, the following is appended to the body of the ui
+  //No html, the following is appended to the body of the ui
 
   _CreateTicketPopup = $('<div>').appendTo('body')
-  
-    .dxPopup({
+   .dxPopup({
       title: 'Create Ticket',
       visible: true,
+      width: 1500,
+      height: 900,
+      
+//not working
+      function() {
+        scrollViewContainer.dxScrollView({
+            useNative: false,
+            showScrollbar: 'always' 
+        });
+    },
       contentTemplate: (container) => {
-        
-    
-        _CreateTicketForm = $('<div>').appendTo(container)
-   
-
-  
+         _CreateTicketForm = $('<div>').appendTo(container)
           .dxForm({ 
-           
-            formData: {},
-          
-            items: [
+           formData: {},
+           items: [
               {
                 "dataField": "ADDITIONALMEMBERS"
               },
@@ -169,15 +169,13 @@ function ShowCreateTicket() {
               {
                 "dataField": "ZIP"
               }
-
-                ]
-              }
-              
-          )
+            ]
+          })
           
           .dxForm('instance')
-         }})
-     
+         }
+       })
+         /**/
       toolbarItems: [ {
       widget: "dxButton",
       toolbar:'bottom',
@@ -196,13 +194,9 @@ function ShowCreateTicket() {
               console.log(err);
               DevExpress.ui.notify('invalid login attempt. please try again.','error',3000);
             })
-
-
            }
-          
-      },
-     
-  }]
+         },
+      }]
     .dxPopup('instance')
 }
 
@@ -210,4 +204,4 @@ function ShowCreateTicket() {
 $(() => {
 ShowCreateTicket();
 })
-
+//now make your method and event properties within your namespace
