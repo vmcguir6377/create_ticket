@@ -175,6 +175,7 @@ function ShowCreateTicket() {
           .dxForm('instance')
          }
        })
+       .dxScrollView('instance')
          /**/
       toolbarItems: [ {
       widget: "dxButton",
@@ -186,13 +187,12 @@ function ShowCreateTicket() {
           icon:'key',
           type: "success",
           onClick:(e)=>{ 
-            attemptLogin()
-            .then(()=>{
-              document.location.href = 'index.html';
-            })
+           console.log()
+            
+             
             .catch((err)=>{
               console.log(err);
-              DevExpress.ui.notify('invalid login attempt. please try again.','error',3000);
+              DevExpress.ui.notify('invalid attempt. please try again.','error',3000);
             })
            }
          },
@@ -204,4 +204,4 @@ function ShowCreateTicket() {
 $(() => {
 ShowCreateTicket();
 })
-//now make your method and event properties within your namespace
+
