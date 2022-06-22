@@ -35,146 +35,330 @@ function ShowCreateTicket() {
             "dataField": "ADDRESS",
             validationRules: [{
               type: 'required',
-              message: 'Address is required',
+              message: ' Address is required',
             }], 
           },
           {
-            "dataField": "ALTPHONE"
+            "dataField": "ALTPHONE",
+            validationRules: [{
+              type: 'required',
+              message: ' Alt phone is required',
+            }], 
           },
           {
-            "dataField": "CALLER"
+            "dataField": "CALLER",
+            validationRules: [{
+              type: 'required',
+              message: ' Caller is required',
+            }], 
           },
           {
-            "dataField": "CALLERPHONE"
+            "dataField": "CALLERPHONE",
+            validationRules: [{
+              type: 'required',
+              message: ' Caller phone is required',
+            }], 
           },
           {
-            "dataField": "CITY"
+            "dataField": "CITY",
+            validationRules: [{
+              type: 'required',
+              message: ' City is required',
+            }], 
           },
           {
-            "dataField": "COMPANY"
+            "dataField": "COMPANY",
+            validationRules: [{
+              type: 'required',
+              message: ' Company is required',
+            }], 
           },
           {
-            "dataField": "COMPANYADDRESS"
+            "dataField": "COMPANYADDRESS",
+            validationRules: [{
+              type: 'required',
+              message: ' Company address is required',
+            }], 
           },
           {
-            "dataField": "CONTACT"
+            "dataField": "CONTACT",
+            validationRules: [{
+              type: 'required',
+              message: ' Contact is required',
+            }], 
           },
           {
-            "dataField": "CONTACTFAX"
+            "dataField": "CONTACTFAX",
+            validationRules: [{
+              type: 'required',
+              message: ' Contact fax is required',
+            }], 
           },
           {
-            "dataField": "CONTACTPHONE"
+            "dataField": "CONTACTPHONE",
+            validationRules: [{
+              type: 'required',
+              message: ' Contact phone is required',
+            }], 
           },
           {
-            "dataField": "COUNTY"
+            "dataField": "COUNTY",
+            validationRules: [{
+              type: 'required',
+              message: ' County is required',
+            }], 
           },
           {
-            "dataField": "DURATION"
+            "dataField": "DURATION",
+            validationRules: [{
+              type: 'required',
+              message: ' Duration is required',
+            }], 
           },
           {
-            "dataField": "EMAILADDRESS"
+            "dataField": "EMAILADDRESS",
+            validationRules: [{
+              type: 'required',
+              message: ' Duration is required',
+            }], 
           },
           {
-            "dataField": "EMAIL"
+            "dataField": "EMAIL",
+            validationRules: [{
+              type: 'required',
+              message: ' Email is required',
+            }], 
           },
           {
-          "dataField": "EXPLOSIVES"
+          "dataField": "EXPLOSIVES",
+          validationRules: [{
+            type: 'required',
+            message: ' Response is required',
+          }], 
           },
           {
-            "dataField": "XLOC"
+            "dataField": "XLOC",
+            validationRules: [{
+              type: 'required',
+              message: ' XLOC is required',
+            }], 
           },
           {
-            "dataField": "YLOC"
+            "dataField": "YLOC",
+            validationRules: [{
+              type: 'required',
+              message: ' YLOC is required',
+            }], 
           },
           {
-            "dataField": "LOCATIONOFWORK"
+            "dataField": "LOCATIONOFWORK",
+            validationRules: [{
+              type: 'required',
+              message: ' Location is required',
+            }], 
           },
           {
-            "dataField": "MAPREF"
+            "dataField": "MAPREF",
+            validationRules: [{
+              type: 'required',
+              message: ' MapRef is required',
+            }], 
           },
           {
-            "dataField": "NEARESTINTERSECTINGSTREET"
+            "dataField": "NEARESTINTERSECTINGSTREET",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "CreatedBy"
+            "dataField": "CreatedBy",
+            validationRules: [{
+              type: 'required',
+              message: ' Create by is required',
+            }], 
           },
           {
-            "dataField": "PRIORITY"
+            "dataField": "PRIORITY",
+            validationRules: [{
+              type: 'required',
+              message: ' Priority is required',
+            }], 
           },
           {
-            "dataField": "ROW"
+            "dataField": "ROW",
+            validationRules: [{
+              type: 'required',
+              message: ' Row is required',
+            }], 
           },
           {
-            "dataField": "SENDTO"
+            "dataField": "SENDTO",
+            validationRules: [{
+              type: 'required',
+              message: ' Send to is required',
+            }], 
           },
           {
-            "dataField": "SEQUENCENUMBER"
+            "dataField": "SEQUENCENUMBER",
+            validationRules: [{
+              type: 'required',
+              message: ' Sequence no. is required',
+            }], 
           },
           {
-            "dataField": "STATE"
+            "dataField": "STATE",
+            validationRules: [{
+              type: 'required',
+              message: ' State is required',
+            }], 
           },
           {
-            "dataField": "STREET"
+            "dataField": "STREET",
+            validationRules: [{
+              type: 'required',
+              message: ' Street is required',
+            }], 
           },
           {
-            "dataField": "OC_TICKETNUMBER"
+            "dataField": "OC_TICKETNUMBER",
+            validationRules: [{
+              type: 'required',
+              message: ' Ticket no. is required',
+            }], 
           },
           {
-            "dataField": "TRANSMITDATE"
+            "dataField": "TRANSMITDATE",
+            validationRules: [{
+              type: 'required',
+              message: ' Transmit date is required',
+            }], 
           },
           {
-            "dataField": "TRANSMITOP"
+            "dataField": "TRANSMITOP",
+            validationRules: [{
+              type: 'required',
+              message: ' Transmit to is required',
+            }], 
           },
           {
-            "dataField": "TRANSMITTIME"
+            "dataField": "TRANSMITTIME",
+            validationRules: [{
+              type: 'required',
+              message: ' Transmit time is required',
+            }], 
           },
           {
-            "dataField": "TUNNELBORE"
+            "dataField": "TUNNELBORE",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "TYPEOFWORK"
+            "dataField": "TYPEOFWORK",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "UPDATEOF"
+            "dataField": "UPDATEOF",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "WORKBEINGDONEFOR"
+            "dataField": "WORKBEINGDONEFOR",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "DUEDATE"
+            "dataField": "DUEDATE",
+            validationRules: [{
+              type: 'required',
+              message: ' Date is required',
+            }], 
           },
           {
-            "dataField": "DUETIME"
+            "dataField": "DUETIME",
+            validationRules: [{
+              type: 'required',
+              message: ' Time is required',
+            }], 
           },
           {
-            "dataField": "RECEIVEDDATE"
+            "dataField": "RECEIVEDDATE",
+            validationRules: [{
+              type: 'required',
+              message: ' Date is required',
+            }], 
           },
           {
-            "dataField": "RECEIVEDTIME"
+            "dataField": "RECEIVEDTIME",
+            validationRules: [{
+              type: 'required',
+              message: ' Time is required',
+            }], 
           },
           {
-            "dataField": "REMARKS"
+            "dataField": "REMARKS",
+            validationRules: [{
+              type: 'required',
+              message: ' Notes are required',
+            }], 
           },
           {
-            "dataField": "TWP"
+            "dataField": "TWP",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "RNG"
+            "dataField": "RNG",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "ASR_PARSER"
+            "dataField": "ASR_PARSER",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "PARSER_NAME"
+            "dataField": "PARSER_NAME",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "OCC_TICKET_IDENTIFIER"
+            "dataField": "OCC_TICKET_IDENTIFIER",
+            validationRules: [{
+              type: 'required',
+              message: ' Field is required',
+            }], 
           },
           {
-            "dataField": "OCC_TICKET_VERSION"
+            "dataField": "OCC_TICKET_VERSION",
+            validationRules: [{
+              type: 'required',
+              message: ' Version is required',
+            }], 
           },
           {
-            "dataField": "ZIP"
+            "dataField": "ZIP",
+            validationRules: [{
+              type: 'required',
+              message: ' Zip is required',
+            }], 
           }
         ]
       })
