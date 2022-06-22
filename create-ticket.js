@@ -385,8 +385,7 @@ function ShowCreateTicket() {
           type: "success",
           onClick:(e)=>{
             //print form data
-
-            if(formView.dxForm('instance').validate()){
+              if(formView.dxForm('instance').validate()){
               console.log(formView.dxForm('instance').option('formData'));
 
             }
@@ -403,6 +402,8 @@ function ShowCreateTicket() {
           icon:'clear',
           type: "danger",
           onClick:(e)=>{
+            //reset form to empty
+            ShowCreateTicket();
             console.log("Submission cancelled")
           }
       },
