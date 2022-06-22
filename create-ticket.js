@@ -179,36 +179,36 @@ const formView = $('<div/>');
           height: '100%',
         })
   
-        //append dev extreme scrollView to outter container
+        //append dev extreme scrollView to outer container
         container.append(scrollView);
   
       },
-      toolbarItems: [ {
-        widget: "dxButton",
-        toolbar:'bottom',
-      
-        location: "after",
-        options: { 
-            text: "Submit", 
-            icon:'key',
-            type: "success",
-            onClick:(e)=>{ 
-              attemptLogin()
-              .then(()=>{
-                document.location.href = 'index.html';
-              })
-              .catch((err)=>{
-                console.log(err);
-                DevExpress.ui.notify('invalid login attempt. please try again.','error',3000);
-              })
-            }
-          },
-      }]
+     
+    toolbarItems: [ {
+      widget: "dxButton",
+      toolbar:'bottom',
+      location: "after",
+      options: { 
+          
+          text: "Submit", 
+          icon:'key',
+          type: "success",
+          onClick:(e)=>{ 
+            attemptSubmit()
+            .then(()=>{
+              document.location.href = 'index.html';
+            })
+            .catch((err)=>{
+              console.log(err);
+              DevExpress.ui.notify('Invalid attempt. Please try again.','error',3000);
+            })
+          }
+        } , 
+   }],
+ 
+  })
   
-    })
-           /**/
-  
-  //.dxPopup('instance')
+  .dxPopup('instance')
   }
   
   
