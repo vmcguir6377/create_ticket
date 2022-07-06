@@ -19,7 +19,7 @@
        "XLOC": "-97.76782",
        "YLOC": "30.29487",
        "LOCATIONOFWORK": "",
-       "MAPREF": "78703",
+       "MAPREF": "65:AN:AUSTIN:TX",
        "NEARESTINTERSECTINGSTREET": "STAMFORD WAY",
        "CreateBy": "OGAN1",
        "PRIORITY": "DigUp",
@@ -47,6 +47,6 @@
        "PARSER_NAME": "OGAN1",
        "OCC_TICKET_IDENTIFIER": "296587484",
        "OCC_TICKET_VERSION": "152",
-       "ZIP": "65:AN:AUSTIN:TX"
+       "ZIP": "78703"
     }
  }
