@@ -4,7 +4,7 @@
   }
 }
     
-var CreateTicket = new CreateTicket();
+var createTicket = new CreateTicket();
 
     CreateTicket.formView;
     this.formView = $('<div />');
@@ -426,7 +426,7 @@ var CreateTicket = new CreateTicket();
 
 
      
-        new CreateTicket();
+       new CreateTicket();
     
 
     }
